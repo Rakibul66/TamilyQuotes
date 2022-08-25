@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.activities.admin.AddTrendingCategory">
+
+
+    <com.muththamizh.tamily.CustomSpinner
+        android:id="@+id/sp_select_category"
+        style="?android:attr/spinnerItemStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_spinner_fruit_up"
+        android:dropDownVerticalOffset="40dp"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/btn_add_trending_category"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_40"
+        android:layout_below="@id/sp_select_category"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:background="@drawable/btn_bg"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingRight="@dimen/dp_20"
+        android:text="Add Trending"
+        android:textAllCaps="false" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_trending"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btn_add_trending_category"
+        android:layout_marginTop="@dimen/dp_10" />
+    <TextView
+        android:id="@+id/tv_trending_not_available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="No Trending Available"
+        android:textSize="@dimen/sp_17"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:visibility="gone"
+        style="@style/textBold" />
+
+</RelativeLayout>

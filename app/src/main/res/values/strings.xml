@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Tamily Quotes</string>
+    <string name="quoteLy">Tamily</string>
+    <string name="addQuote">Add Quote</string>
+    <string name="addImage">Add Image Quote</string>
+    <string name="admin">Admin</string>
+    <string name="strRate">Rate our app</string>
+    <string name="strShareApp">Share our app</string>
+    <string name="strTapToSound">Tap to sound</string>
+    <string name="strFollow_on_instagram">Follow us on Instagram</string>
+    <string name="strLikesOnFacebook">Follow us on Facebook</string>
+    <string name="appVersion">App ver.</string>
+    <string name="search_hint">Search quote category..</string>
+    <string name="playStoreURL">https://play.google.com/store/apps/details?id=</string>
+    <string name="installDesc">Install Tamily Quotes for the Latest Collections of Tamil Quotes, Tamil WhatsApp Status Kavithai, Kadhal Kavithaigal and Natpu Kavithaigal. </string>
+    <string name="ic_share">Share</string>
+    <string name="ic_save">Save</string>
+    <string name="strCopy">Copy</string>
+    <string name="fav">Favourites</string>
+    <string name="noFav">No Favourites !!</string>
+
+    <string name="admob_app_id">ca-app-pub-3797420896115885~3337752152</string>
+    <string name="admob_banner_id">ca-app-pub-3797420896115885/2575334825</string>
+    <string name="admob_interstitial_id">ca-app-pub-3797420896115885/7312656180</string>
+    <string name="admob_native">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="noData">No Quotes Available !!</string>
+    <string name="noCats">No Categories Available at this moment !!</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="invalid_email">Please enter email address</string>
+    <string name="invalid_password">Please enter password</string>
+    <string name="create_category">Create Category</string>
+    <string name="enter_category_title">Enter category title</string>
+    <string name="update_category">Update Category</string>
+    <string name="update_quote">Update Quote</string>
+    <string name="add_category">Add Category</string>
+    <string name="add_category_trending">Add Trending</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="enter_quote_here">Enter Quote here</string>
+    <string name="create_quote">Create Quote</string>
+    <string name="privacy_policy_url">https://www.muththamizh.in/p/privacy-policy-for-our-android-apps.html</string>
+</resources>

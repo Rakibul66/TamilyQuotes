@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dp_10"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_marginEnd="@dimen/dp_10"
+    android:background="@color/white"
+    app:cardBackgroundColor="@color/white"
+    android:layout_marginBottom="@dimen/dp_10"
+    android:tag="layout/item_detail_list_0"
+    app:cardCornerRadius="@dimen/dp_10">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="1">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/placeholder"
+                    android:layout_height="350dp"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"></ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:background="@color/colorBackGroundShape"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/dp_7"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_7"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llDownload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/dp_2">
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_5"
+                    android:src="@drawable/ic_icon_feather_download"
+                    app:tint="@color/colorDownload"
+                    android:layout_marginLeft="@dimen/dp_5" />
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_10"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:text="@string/ic_save"
+                    android:textColor="@color/colorDownload"
+                    android:textSize="@dimen/sp_13"
+                    android:layout_marginLeft="@dimen/dp_10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llShare"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:padding="@dimen/dp_2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_5"
+                    android:src="@drawable/ic_icon_feather_share_2"
+                    app:tint="@color/colorShare"
+                    android:layout_marginLeft="@dimen/dp_5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_10"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:text="@string/ic_share"
+                    android:textColor="@color/colorShare"
+                    android:textSize="@dimen/sp_13"
+                    android:layout_marginLeft="@dimen/dp_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+    android:id="@+id/imgFav"
+    android:layout_width="@dimen/dp_30"
+    android:layout_height="@dimen/dp_30"
+    android:layout_gravity="end"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_marginEnd="@dimen/dp_10"
+    android:background="@drawable/img_shape"
+    android:padding="@dimen/dp_6"
+    android:src="@drawable/ic_heart"
+    app:layout_constraintBottom_toBottomOf="@+id/textView2"
+    app:layout_constraintEnd_toStartOf="@+id/imgMenu"
+    app:layout_constraintTop_toTopOf="@+id/textView2"
+    android:layout_marginRight="@dimen/dp_10" />
+
+
+</androidx.cardview.widget.CardView>
+
+

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "391668448618",
+    "project_id": "tamily-quotes-cadb9",
+    "storage_bucket": "tamily-quotes-cadb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391668448618:android:cb325f78a282ce83c7f913",
+        "android_client_info": {
+          "package_name": "com.muththamizh.tamily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391668448618-grarg5ca0n1mrr5u2b3m8hvmcddn2i8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muththamizh.tamily",
+            "certificate_hash": "0dfc243ab9bbbabc5c75d94f7fea21ea06f1272c"
+          }
+        },
+        {
+          "client_id": "391668448618-8bp86s2pb744m5uns1ep7h3pucftf4ee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcKCHwLh_3sOJ9fvnzu2Ashh01LS5I1D0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391668448618-8bp86s2pb744m5uns1ep7h3pucftf4ee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

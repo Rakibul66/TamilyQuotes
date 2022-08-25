@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.1" type="baseline" client="gradle" dependencies="false" name="AGP (7.2.1)" variant="fatal" version="7.2.1">
+
+    <issue
+        id="NotSibling"
+        message="`@+id/adMobBanner` is not a sibling in the same `RelativeLayout`"
+        errorLine1="        android:layout_above=&quot;@+id/adMobBanner&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_quotes_admin.xml"
+            line="50"
+            column="9"/>
+    </issue>
+
+</issues>

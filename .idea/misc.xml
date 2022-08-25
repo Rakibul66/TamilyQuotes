@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/QuotesApp_v2/app/src/main/res/layout/item_image_quote.xml" value="0.16209371042634022" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/drawable/dotted_line.xml" value="0.203" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/drawable/ic_add_image.xml" value="0.203" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/drawable/ic_add_img.xml" value="0.203" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/font/quicksand_bold.xml" value="0.3182777543267201" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/layout/activity_add_image_quote.xml" value="0.3625" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/layout/activity_categories.xml" value="0.25" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/layout/activity_image_quotes.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/layout/activity_quotes.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/layout/activity_quotes_admin.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/layout/image_quote_layout.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/layout/item_image_quote.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/layout/item_quote.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/layout/item_trending.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/layout/item_trending_cats_admin.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/layout/popur_upload.xml" value="0.29379485014774165" />
+        <entry key="..\:/Users/Ahame/Desktop/QuotesApp_v2/app/src/main/res/xml/paths.xml" value="0.29379485014774165" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

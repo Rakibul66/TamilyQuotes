@@ -1,0 +1,74 @@
+User..........
+
+    private void runApp(){
+        if (Constants.USER_MODE.equalsIgnoreCase("user")){
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    startActivity(new Intent(Splash.this,Categories.class));
+                    onBackPressed();
+                }
+            },SPLASH_TIMEOUT);
+        }else {
+//            startActivity(new Intent(Splash.this, Login.class));
+//            if (prefManager.isAdminLoggedIn(PrefManager.IS_ADMIN_LOGGED_IN)){
+//                new Handler().postDelayed(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        startActivity(new Intent(Splash.this, Dashboard.class));
+//                        onBackPressed();
+//                    }
+//                },SPLASH_TIMEOUT);
+//            }else {
+//                new Handler().postDelayed(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        startActivity(new Intent(Splash.this, Login.class));
+//                        onBackPressed();
+//                    }
+//                },SPLASH_TIMEOUT);
+//            }
+        }
+    }
+
+
+
+
+
+
+
+    Admin...........
+
+
+
+
+        private void runApp(){
+        if (Constants.USER_MODE.equalsIgnoreCase("admin")){
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    startActivity(new Intent(Splash.this,Categories.class));
+                    onBackPressed();
+                }
+            },SPLASH_TIMEOUT);
+        }else {
+            startActivity(new Intent(Splash.this, Login.class));
+            if (prefManager.isAdminLoggedIn(PrefManager.IS_ADMIN_LOGGED_IN)){
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        startActivity(new Intent(Splash.this, Dashboard.class));
+                        onBackPressed();
+                    }
+                },SPLASH_TIMEOUT);
+            }else {
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        startActivity(new Intent(Splash.this, Login.class));
+                        onBackPressed();
+                    }
+                },SPLASH_TIMEOUT);
+            }
+        }
+    }

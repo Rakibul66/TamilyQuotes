@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:tag="layout/activity_category_screen_0">
+
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:background="@color/white"
+        android:elevation="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:id="@+id/navBack"
+            android:layout_marginTop="@dimen/dp_3"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_nav_back"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            app:tint="@android:color/black" />
+
+        <TextView
+            android:layout_marginRight="@dimen/dp_40"
+            android:id="@+id/categoryTitle"
+            style="@style/textBold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="@string/fav"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp_22" />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/adMobBanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvQuotes"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="2" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/noDataUI"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                app:tint="@color/cardview_dark_background"
+                android:src="@drawable/ic_broken_heart"
+                android:layout_width="145dp"
+                android:layout_height="145dp"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/dp_40"
+                android:fontFamily="@font/quicksand_bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:text="@string/noFav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/adMobBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

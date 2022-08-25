@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="NoActionBar" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorPrimary</item>
+        <item name="background">@android:color/white</item>
+    </style>
+
+    <style name="AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:text">@string/ad_attribution</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:background">#FFCC66</item>
+        <item name="android:width">15dp</item>
+        <item name="android:height">15dp</item>
+    </style>
+
+    <style name="textBold">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+    </style>
+
+    <style name="textBoldForLogo">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+    </style>
+
+    <style name="menuLabel">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:layout_marginStart" tools:targetApi="jelly_bean_mr1">@dimen/dp_20</item>
+    </style>
+
+    <string name="ad_attribution">Ad</string>
+</resources>
